@@ -17,12 +17,12 @@ const store: Store<StateType> = createStore({
       ? [
           createLogger(),
           createPersistedState({
-            paths: ['app', 'console', 'user']
+            paths: ['app', 'user']
           })
         ]
       : [
           createPersistedState({
-            paths: ['app', 'console', 'user']
+            paths: ['app', 'user']
           })
         ]
 })

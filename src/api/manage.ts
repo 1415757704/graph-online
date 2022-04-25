@@ -91,15 +91,6 @@ class ManageService {
     })
   }
 
-  // 获取子账号列表
-  static getSubAccountList(params: GetSubAccountListParams): Promise<HttpResponse> {
-    return Axios('/bus/subAccount/list', {
-      method: 'get',
-      responseType: 'json',
-      params
-    })
-  }
-
   // 重置子账号密码
   static resetSubAccountPassword(params: ResetSubAccountPasswordParams): Promise<HttpResponse> {
     return Axios('/bus/subAccount/password/reset', {

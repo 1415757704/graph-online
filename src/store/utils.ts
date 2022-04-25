@@ -1,7 +1,7 @@
 import store from '@/store'
 
 // 定义 state 下的 module 值
-type ModuleNameType = 'app' | 'console' | 'user'
+type ModuleNameType = 'app' | 'user'
 
 /**
  * @description setStoreState -方法是一个 mutaitions 的操作

@@ -6,8 +6,7 @@ const state = {
   theme: 'light',
   version: '0.0.1',
   fullLoading: false,
-  loadingText: 'Loading...',
-  currentActiveNav: '解决方案'
+  loadingText: 'Loading...'
 }
 type AppStateType = typeof state
 
